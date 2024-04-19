@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <h1>My<span >Quiz</span></h1>
+        <h1 id="timer"></h1>
+        <div id="starting">
+           
+
+                <button id="start" >Demarrer le QCM</button>
+     
+        </div>
+    </nav>
+     <main>
+
+         <div class="questions">
+             <div id="questions">
+     
+             </div>
+         </div>
+         <div id="bas">
+             <button id="envoyer" class="btn">ENVOYER</button>
+         </div>
+     </main>
+    <section class="verrou">
+        <form id="form">
+
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" required>
+            <label for="prenom">Votre prénom :</label>
+            <input type="text" id="prenom" required>
+
+            <p>Avertissement /!\ : pour ton bien ne triche pas</p>
+
+            <input id="myBtn" class="btn" type="submit" value="ENVOYER">
+
+        </form>
+    </section>
+    <div class="triche">
+        <h3 id="message">Frerot pour ton bien arrete de tricher</h3>
+    </div>
+</body>
+    <script src="./JS/script.js"></script>
+</html>
